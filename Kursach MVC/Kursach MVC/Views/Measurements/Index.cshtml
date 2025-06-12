@@ -1,0 +1,105 @@
+﻿@model Measurements
+@{
+    ViewData["Title"] = "Meaurements";
+}
+
+<h1>Ввод параметров</h1>
+
+<form method="post" asp-controller="Measurements" asp-action="Build">
+    <div class="form">
+        <label asp-for="OG"></label>
+        <input asp-for="OG" />
+        <span asp-validation-for="OG"></span>
+    </div>
+    
+    <div class="form">
+        <label asp-for="OT"></label>
+        <input asp-for="OT" />
+        <span asp-validation-for="OT"></span>
+    </div>
+   
+    <div class="form">
+        <label asp-for="OB"></label>
+        <input asp-for="OB" />
+        <span asp-validation-for="OB"></span>
+    </div>
+    <div class="form">
+        <label asp-for="VB"></label>
+        <input asp-for="VB" />
+        <span asp-validation-for="VB"></span>
+    </div>
+    <div class="form">
+        <label asp-for="Shs"></label>
+        <input asp-for="Shs" />
+        <span asp-validation-for="Shs"></span>
+    </div>
+    <div class="form">
+        <label asp-for="ShPr"></label>
+        <input asp-for="ShPr" />
+        <span asp-validation-for="ShPr"></span>
+    </div>
+    <div class="form">
+        <label asp-for="ShG1"></label>
+        <input asp-for="ShG1" />
+        <span asp-validation-for="ShG1"></span>
+    </div>
+    <div class="form">
+        <label asp-for="ShG2"></label>
+        <input asp-for="ShG2" />
+        <span asp-validation-for="ShG2"></span>
+    </div>
+    <div class="form">
+        <label asp-for="DTS"></label>
+        <input asp-for="DTS" />
+        <span asp-validation-for="DTS"></span>
+    </div>
+    <div class="form">
+        <label asp-for="VPK"></label>
+        <input asp-for="VPK" />
+        <span asp-validation-for="VPK"></span>
+    </div>
+    <div class="form">
+        <label asp-for="DTP"></label>
+        <input asp-for="DTP" />
+        <span asp-validation-for="DTP"></span>
+    </div>
+    <div class="form">
+        <label asp-for="VPKP"></label>
+        <input asp-for="VPKP" />
+        <span asp-validation-for="VPKP"></span>
+    </div>
+    <div class="form">
+        <label asp-for="DPl"></label>
+        <input asp-for="DPl" />
+        <span asp-validation-for="DPl"></span>
+    </div>
+    <div class="form">
+        <label asp-for="OSh"></label>
+        <input asp-for="OSh" />
+        <span asp-validation-for="OSh"></span>
+    </div>
+    <div class="form">
+        <label asp-for="VG"></label>
+        <input asp-for="VG" />
+        <span asp-validation-for="VG"></span>
+    </div>
+    <div class="form">
+        <label asp-for="CG"></label>
+        <input asp-for="CG" />
+        <span asp-validation-for="CG"></span>
+    </div>
+    <div class="form">
+        <label asp-for="GPr"></label>
+        <input asp-for="GPr" />
+        <span asp-validation-for="GPr"></span>
+    </div>
+    <div class="form">
+        <label asp-for="DI"></label>
+        <input asp-for="DI" />
+        <span asp-validation-for="DI"></span>
+    </div>
+    <div>
+        <input type="submit" value="Построить выкройку" />
+    </div>
+    
+</form>

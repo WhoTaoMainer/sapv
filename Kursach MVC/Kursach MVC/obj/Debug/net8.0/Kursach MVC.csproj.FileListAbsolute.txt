@@ -1,0 +1,52 @@
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\appsettings.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.staticwebassets.runtime.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.staticwebassets.endpoints.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.exe
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.deps.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.runtimeconfig.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Kursach MVC.pdb
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.AssemblyInfoInputs.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.AssemblyInfo.cs
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.csproj.CoreCompileInputs.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.RazorAssemblyInfo.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.RazorAssemblyInfo.cs
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\scopedcss\bundle\Kursach MVC.styles.css
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\scopedcss\projectbundle\Kursach MVC.bundle.scp.css
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\refint\Kursach MVC.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.pdb
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.genruntimeconfig.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\ref\Kursach MVC.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\ExCSS.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\HarfBuzzSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\ShimSkiaSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\SkiaSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\SkiaSharp.HarfBuzz.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Svg.Custom.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Svg.Model.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\Svg.Skia.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach MVC.csproj.AssemblyReference.cache
+C:\Users\grigo\source\repos\Kursach MVC\Kursach MVC\obj\Debug\net8.0\Kursach .3A5A5806.Up2Date

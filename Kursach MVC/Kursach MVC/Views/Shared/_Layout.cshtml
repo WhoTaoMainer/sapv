@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Kursach_MVC.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <span class="logo">Система автоматического построения выкроек (САПВ)</span>
+        <nav>
+            <a class="on-red" href="/" color="#FFFFFF">Главная</a>
+            @* <a href="/instruction">Инструкция</a> *@
+            <a class="on-red" href="/measurements">Ввод параметров</a>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>Григорьева Анна 2025г.</footer>
+</body>
+</html>

@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\controllers\\measurementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\controllers\\measurementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\models\\measurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\models\\measurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\controllers\\patterncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\controllers\\patterncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\measurements\\pattern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\measurements\\pattern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\measurements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\measurements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\views\\instruction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\views\\instruction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|c:\\users\\grigo\\source\\repos\\kursach mvc\\kursach mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980FF590-1C7D-4B4D-8A4E-A7AF0DBD3EDE}|Kursach MVC\\Kursach MVC.csproj|solutionrelative:kursach mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T11:17:52.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Measurements\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Measurements\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Measurements\\Index.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Measurements\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwGgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T12:31:11.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Measurements.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Models\\Measurements.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Models\\Measurements.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Models\\Measurements.cs",
+              "RelativeToolTip": "Kursach MVC\\Models\\Measurements.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T11:43:15.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pattern.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Measurements\\Pattern.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Measurements\\Pattern.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Measurements\\Pattern.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Measurements\\Pattern.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwIsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T13:45:23.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatternController.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\PatternController.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Controllers\\PatternController.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\PatternController.cs",
+              "RelativeToolTip": "Kursach MVC\\Controllers\\PatternController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:43:11.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T05:59:24.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeasurementsController.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\MeasurementsController.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Controllers\\MeasurementsController.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\MeasurementsController.cs",
+              "RelativeToolTip": "Kursach MVC\\Controllers\\MeasurementsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:29:00.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T05:59:30.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T05:59:36.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:26:41.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Program.cs",
+              "RelativeToolTip": "Kursach MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:11:42.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:11:39.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Kursach MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:28:33.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Instruction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kursach MVC\\Views\\Instruction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Views\\Instruction\\Index.cshtml",
+              "RelativeToolTip": "Kursach MVC\\Views\\Instruction\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T10:12:23.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Kursach MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Kursach MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-26T10:12:09.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InstructionController.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\InstructionController.cs",
+              "RelativeDocumentMoniker": "Kursach MVC\\Controllers\\InstructionController.cs",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Controllers\\InstructionController.cs",
+              "RelativeToolTip": "Kursach MVC\\Controllers\\InstructionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T11:36:04.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Kursach MVC\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\grigo\\source\\repos\\Kursach MVC\\Kursach MVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Kursach MVC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T10:12:05.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

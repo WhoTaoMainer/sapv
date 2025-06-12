@@ -1,0 +1,195 @@
+﻿@model Measurements
+@{
+    ViewData["Title"] = "Pattern";
+    int cmToPx = 30;
+    int og = Model.OG * cmToPx;
+    int ot = Model.OT * cmToPx;
+    int ob = Model.OB * cmToPx;
+    int dts = Model.DTS * cmToPx;
+    int di = Model.DI * cmToPx;
+    int vb = Model.VB * cmToPx;
+    int shs = Model.Shs * cmToPx;
+    //int shpr = Model.ShPr* cmToPx;
+    int shg1 = Model.ShG1 * cmToPx;
+    int shg2 = Model.ShG2 * cmToPx;
+    int vpk = Model.VPK * cmToPx;
+    int dtp = Model.DTP * cmToPx;
+    int vpkp = Model.VPKP * cmToPx;
+    int dpl = (Model.DPl+2) * cmToPx;
+    int osh = Model.OSh * cmToPx;
+    int vg = Model.VG * cmToPx;
+    int cg = Model.CG * cmToPx;
+    int gpr = Model.GPr * cmToPx;
+
+    int width = Math.Max(og, ob) + 60;
+    int height = di + 100;
+    int A0X = 50;
+    int A0Y = 50;
+    int Gy = A0Y + gpr;
+    int Ty = A0Y + dts;
+    int By = Ty + vb;
+    int Hy = A0Y + di;
+    int A3y = Ty - dts - 2 * cmToPx;
+    int freedomAllowance = 1*cmToPx;
+    int ax = A0X + (int)(shs / 2 + freedomAllowance);
+    int a2x = ax + dpl;
+    int A2x = A0X + (int)(osh/6);
+    int A1x = (int)(og / 2 + freedomAllowance + A0X + 5  *cmToPx);
+    int A4x = A1x - (int)(osh / 6);
+    int A5y = A3y + (int)(osh / 6) + 1 * cmToPx;
+    // Расстояние между центрами
+    double dx = A2x - A0X;
+    double dy = A0Y - 2 * cmToPx - Ty;
+    double d = Math.Sqrt(dx * dx + dy * dy);
+    // Точка 2D пересечения окружностей
+    double a = (vpk * vpk - dpl * dpl + d * d) / (2 * d);
+    double h = Math.Sqrt(vpk * vpk - a * a);
+
+    // Координаты точки на линии между центрами
+    double xm = A0X + a * dx / d;
+    double ym = Ty + a * dy / d;
+
+    // Два варианта пересечения — выбираем один (например, верхний)
+    double rx = -dy * (h / d);
+    double ry = dx * (h / d);
+
+    int P1x = (int)(xm + rx);
+    int P1y = (int)(ym + ry);
+
+
+    double dx2 = A4x - A1x;
+    double dy2 = A3y - Ty;
+    double d2 = Math.Sqrt(dx2 * dx2 + dy2 * dy2);
+    double shoulderLength = dpl + (shg1-shg2)/2;
+    double a2 = (vpkp * vpkp - dpl * dpl + d2 * d2) / (2 * d2);
+    double h2 = Math.Sqrt(vpkp * vpkp - a2 * a2);
+
+    double xm2 = A1x + a2 * dx2 / d2;
+    double ym2 = Ty + a2 * dy2 / d2;
+
+    double rx2 = dy2 * (h2 / d2);
+    double ry2 = dx2 * (h2 / d2);
+
+    int P5x = (int)(xm2 + rx2);
+    int P5y = (int)(ym2 - ry2 + 2 * cmToPx);
+    int vit = (int)(A1x - (ot / 2 + freedomAllowance));
+    int vitSide = vit / 2;
+    int G2x = (ax + a2x) / 2;
+    int bedro = (int)((ob / 2 + freedomAllowance) - A1x);
+    }
+<h1>Готовая выкройка</h1>
+
+<div id="pattern" style="width:21cm; padding:0; margin:0;">
+    <svg id="svg" viewBox="0 0 @(width) @(height)"
+         style="width:100%; height:auto;">
+        <style>
+            text {
+                font-size: 5px;
+                font-family: sans-serif;
+            }
+
+            .line {
+                stroke: gray;
+                stroke-dasharray: 2;
+                stroke-width: 10;
+            }
+
+            .outline {
+                stroke: black;
+                stroke-width: 10;
+                fill: none;
+            }
+
+            .dart {
+                stroke: black;
+                stroke-width: 0.5;
+                fill: none;
+            }
+        </style>
+        @* Базовая сетка *@
+        @* Вертикальные линии *@
+        <line x1="@A0X" y1="@A0Y" x2="@A0X" y2="@Hy" stroke="black" /> 
+        <line x1="@A1x" y1="@A0Y" x2="@A1x" y2="@Hy" stroke="black" />
+        <line x1="@ax" y1="@A0Y" x2="@ax" y2="@Gy" stroke="black" />
+        <line x1="@a2x" y1="@A0Y" x2="@a2x" y2="@Gy" stroke="black" />
+        @* Горизонтальные линии *@
+        <line x1="@A0X" y1="@A0Y" x2="@A1x" y2="@A0Y" stroke="black" />
+        <line x1="@A0X" y1="@Hy" x2="@A1x" y2="@Hy" stroke="black" />
+        <line x1="@A0X" y1="@Gy" x2="@A1x" y2="@Gy" stroke="black" />
+        <line x1="@A0X" y1="@Ty" x2="@A1x" y2="@Ty" stroke="black" />
+        <line x1="@A0X" y1="@By" x2="@A1x" y2="@By" stroke="black" />
+        
+
+        @* Сама вкройка *@
+        <line x1="@A1x" y1="@Ty" x2="@A1x" y2="@A3y" stroke="black" /> 
+        @* <line x1="@A1x" y1="@A3y" x2="@a2x" y2="@A3y" stroke="black" /> *@
+        <line x1="@A0X" y1="@A0Y" x2="@A2x" y2="@A0Y" stroke="red" />
+        @* <line x1="@A0X" y1="@(A0Y-2)" x2="@A2x" y2="@(A0Y-2)" stroke="red" /> *@
+        <line x1="@A2x" y1="@A0Y" x2="@A2x" y2="@(A0Y - 2 * cmToPx)" stroke="red" />
+        <path d="M @A0X @A0Y 
+        C @A0X @A0Y,
+        @((@A0X + A2x) / 3 *2) @(@A0Y),
+        @A2x @(@A0Y - 2 * cmToPx)" 
+        stroke="red" fill="none" stroke-width="1" />
+        <line x1="@A2x" y1="@(A0Y - 2 * cmToPx)" x2="@P1x" y2="@P1y" stroke="red" />
+        <path d="M @P1x @P1y
+        C @P1x @P1y,
+        @(ax - 3 * cmToPx) @(Gy - 2 * cmToPx),
+        @((ax + a2x) / 2 ) @(Gy)"
+              stroke="red" fill="none" stroke-width="1" />
+        <line x1="@A1x" y1="@A3y" x2="@A4x" y2="@A3y" stroke="red" />
+        <line x1="@A1x" y1="@A3y" x2="@A1x" y2="@A5y" stroke="red" />
+        <path d="M @A4x @A3y
+        C @A4x @A3y,
+        @(A4x) @(A5y),
+        @(A1x) @(A5y)"
+        stroke="red" fill="none" stroke-width="1" />
+        <line x1="@A4x" y1="@A3y" x2="@(A4x - 4 * cmToPx)" y2="@(A3y + cmToPx)" stroke="red" />
+        <line x1="@(A4x - 4 * cmToPx)" y1="@(A3y + cmToPx)" x2="@(A1x - (cg / 2))" y2="@(A3y + vg)" stroke="red" />
+        @* <line x1="@(A1x - (cg / 2))" y1="@((A3y + vg))" x2="@(P4x)" y2="@(P4y)" stroke="red" /> *@
+        @* <line x1="@A4x" y1="@A3y" x2="@P5x" y2="@P5y" stroke="red" /> *@
+        <line x1="@(A1x - (cg / 2))" y1="@(A3y + vg)" x2="@(P5x + (shg1 - shg2) / 2)" y2="@(P5y-1*cmToPx)" stroke="red" />
+        <line x1="@(P5x + (shg1 - shg2) / 2)" y1="@(P5y - 1 * cmToPx)" x2="@(P5x)" y2="@P5y" stroke="red" />
+        <path d="M @P5x @P5y
+        C @P5x @P5y,
+        @(a2x + 3 * cmToPx) @(Gy - 2 * cmToPx),
+        @((ax + a2x) / 2) @(Gy)"
+              stroke="red" fill="none" stroke-width="1" />
+              @* Вытачки *@
+            <line x1="@(G2x-vitSide/2)" y1="@(Ty)" x2="@(G2x)" y2="@Gy" stroke="red" />
+            <line x1="@(G2x+vitSide/2)" y1="@(Ty)" x2="@(G2x)" y2="@Gy" stroke="red" />
+        <line x1="@((G2x + A0X) / 2 + vitSide / 4)" y1="@(Ty)" x2="@((G2x + A0X) / 2)" y2="@(Ty - 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A0X) / 2 - vitSide / 4)" y1="@(Ty)" x2="@((G2x + A0X) / 2)" y2="@(Ty - 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A0X) / 2 - vitSide / 4)" y1="@(Ty)" x2="@((G2x + A0X) / 2)" y2="@(Ty + 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A0X) / 2 + vitSide / 4)" y1="@(Ty)" x2="@((G2x + A0X) / 2)" y2="@(Ty + 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A1x) / 2 + vitSide / 4)" y1="@(Ty)" x2="@((G2x + A1x) / 2)" y2="@(Ty - 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A1x) / 2 - vitSide / 4)" y1="@(Ty)" x2="@((G2x + A1x) / 2)" y2="@(Ty - 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A1x) / 2 - vitSide / 4)" y1="@(Ty)" x2="@((G2x + A1x) / 2)" y2="@(Ty + 12 * cmToPx)" stroke="red" />
+        <line x1="@((G2x + A1x) / 2 + vitSide / 4)" y1="@(Ty)" x2="@((G2x + A1x) / 2)" y2="@(Ty + 12 * cmToPx)" stroke="red" />
+        <line x1="@(G2x - bedro / 2)" y1="@(By)" x2="@(G2x + vitSide / 2)" y2="@Ty" stroke="red" />
+        <line x1="@(G2x + bedro / 2)" y1="@(By)" x2="@(G2x - vitSide / 2)" y2="@Ty" stroke="red" />
+        <line x1="@(G2x - bedro / 2)" y1="@(By)" x2="@(G2x - bedro / 2)" y2="@Hy" stroke="red" />
+        <line x1="@(G2x + bedro / 2)" y1="@(By)" x2="@(G2x + bedro / 2)" y2="@Hy" stroke="red" />
+    </svg>
+</div>
+<button onclick="exportPdf()">Скачать PDF</button>
+
+<script>
+    function exportPdf() {
+        const svg = document.getElementById('svg').outerHTML;
+        fetch('/Pattern/ExportToPdf', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(svg)
+        })
+        .then(response => response.blob())
+        .then(blob => {
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'vykroika.pdf';
+            link.click();
+        });
+    }
+</script>
